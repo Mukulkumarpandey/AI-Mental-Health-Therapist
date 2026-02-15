@@ -1,0 +1,17 @@
+[project]
+name = "mental-health-chatbot-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.129.0",
+    "langchain>=1.2.10",
+    "langchain-openai>=1.1.9",
+    "langgraph>=1.0.8",
+    "ollama>=0.6.1",
+    "pydantic>=2.12.5",
+    "requests>=2.32.5",
+    "twilio>=9.10.1",
+    "uvicorn>=0.40.0",
+]
