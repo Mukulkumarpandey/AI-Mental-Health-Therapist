@@ -31,6 +31,7 @@ Built using:
      ⚡ FastAPI production-ready backend
 
 🏗️ Architecture
+
             User (Streamlit UI)
                     ↓
             FastAPI Backend (/ask)
@@ -46,26 +47,29 @@ Built using:
 
 
 📂 Project Structure
-├── frontend.py        # Streamlit UI
-├── main.py            # FastAPI backend
-├── ai_agent.py        # ReAct Agent logic
-├── tools.py           # MedGemma + Twilio integration
-├── config.py          # API keys (DO NOT COMMIT REAL KEYS)
-└── README.md
+
+
+    ├── frontend.py        # Streamlit UI
+    ├── main.py            # FastAPI backend
+    ├── ai_agent.py        # ReAct Agent logic
+    ├── tools.py           # MedGemma + Twilio integration
+    ├── config.py          # API keys (DO NOT COMMIT REAL KEYS)
+    └── README.md
 
 🚀 Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/ai-mental-health-therapist.git
-cd ai-mental-health-therapist
 
-2️⃣ Create Virtual Environment
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+    1️⃣ Clone the Repository
+            git clone https://github.com/yourusername/ai-mental-health-therapist.git
+            cd ai-mental-health-therapist
 
-3️⃣ Install Dependencies
-pip install fastapi uvicorn streamlit langchain langgraph langchain-openai ollama twilio requests
+    2️⃣ Create Virtual Environment
+    python -m venv venv
+    source venv/bin/activate   # Windows: venv\Scripts\activate
 
-4️⃣ Configure API Keys
+    3️⃣ Install Dependencies
+    pip install fastapi uvicorn streamlit langchain langgraph langchain-openai ollama twilio requests
+
+    4️⃣ Configure API Keys
 
     Update config.py:
 
