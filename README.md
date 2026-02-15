@@ -1,4 +1,4 @@
-🧠** AI Mental Health Therapist**
+🧠AI Mental Health Therapist
 
     An AI-powered Mental Health Support System that provides empathetic conversations, therapist recommendations, and emergency assistance.
 
@@ -16,7 +16,7 @@ Built using:
 
      🔥 OpenAI – LLM Orchestration
 
- ✨** Features**
+ ✨Features
 
      💬 Warm, empathetic AI mental health conversations
 
