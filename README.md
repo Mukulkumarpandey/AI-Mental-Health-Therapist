@@ -61,13 +61,14 @@ Built using:
     1️⃣ Clone the Repository
             git clone https://github.com/yourusername/ai-mental-health-therapist.git
             cd ai-mental-health-therapist
+            
 
     2️⃣ Create Virtual Environment
-    python -m venv venv
-    source venv/bin/activate   # Windows: venv\Scripts\activate
+            python -m venv venv
+            source venv/bin/activate   # Windows: venv\Scripts\activate
 
     3️⃣ Install Dependencies
-    pip install fastapi uvicorn streamlit langchain langgraph langchain-openai ollama twilio requests
+            pip install fastapi uvicorn streamlit langchain langgraph langchain-openai ollama twilio requests
 
     4️⃣ Configure API Keys
 
@@ -155,6 +156,3 @@ Frontend runs at:
 
     Ollama
 
-Twilio
-
-OpenAI API
